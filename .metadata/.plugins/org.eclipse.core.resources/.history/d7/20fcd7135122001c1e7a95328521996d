@@ -1,0 +1,10 @@
+
+public class AddtionalMain {
+
+	public static void main(String[] args) {
+
+		Additionalmpl additionalmpl = new Additionalmpl();
+		additionalmpl.add();
+	}
+
+}

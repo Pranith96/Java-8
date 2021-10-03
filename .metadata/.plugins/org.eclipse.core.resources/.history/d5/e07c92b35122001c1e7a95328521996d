@@ -1,0 +1,19 @@
+
+public class AddtionalMain {
+
+	public static void main(String[] args) {
+
+		Additionalmpl additionalmpl = new Additionalmpl();
+		additionalmpl.add();
+		
+		Addition addition = new Additionalmpl();
+		addition.add();
+		
+		Addition add = () -> System.out.println("Add Method");
+		add.add();
+		
+		Calculator calc = (a,b) -> System.out.println("Calc method");
+		calc.sum(2, 3);
+	}
+
+}
